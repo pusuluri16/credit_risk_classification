@@ -43,23 +43,23 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
-   * Precision- The model performs better healthy loan(precision 1) than high_risk loan (precision 0.87).
-    *recall- The model performs better healthy loan (recall 1) than high_risk loan (recall 0.89).
-    *Accuracy - The balanced accuracy socre is 94%
-    *confusion_matrix - the true positive value is 18679 and true negative value is 558.
-    *support- According to the support column, the model is imbalanced in the training data(healthy loan 18759 vs high_risk loan 625), indicating the structural weakness in the reported scores, in the evaluation process.
-
-
+    * Precision- The model performs better healthy loan(precision 1) than high_risk loan (precision 0.87).
+    * recall- The model performs better healthy loan (recall 1) than high_risk loan (recall 0.89).
+    * Accuracy - The balanced accuracy socre is 94%.
+    * confusion_matrix - the true positive value is 18679 and true negative value is 558.
+    * support- According to the support column, the model is imbalanced in the training data(healthy loan 18759 vs high_risk loan 625), indicating the structural weakness in the reported scores, in the evaluation process.
+   
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
-    *precision - The ratio for both the healthy loan and high_risk loan are equally performs well.
-    *recall- The healthy loan and high_risk loan ratios are equal.
-    *Accuracy- The accuracy for this model is almost 100%. The true postive and true negative values is also almost equal.
-    *Support- According to the support column, the model is balanced in the training data(healthy loan 56277 vs high_risk loan 56277), indicating the structural strength in the reported scores, in the evaluation process.
+     * precision - The ratio for both the healthy loan and high_risk loan are equally performs well.
+     * recall- The healthy loan and high_risk loan ratios are equal.
+     * Accuracy- The accuracy for this model is almost 100%. The true postive and true negative values is also almost equal.
+     * Support- According to the support column, the model is balanced in the training data(healthy loan 56277 vs high_risk loan 56277), indicating the structural strength in the reported scores, in the evaluation process.
+    
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
-    The best performance would be the "machine learning model 2", because it reported scores are balanced and shows high levels of Accuracy, Precision and Recall for both healthy loans and high-risk loans.
+   * The best performance would be the "machine learning model 2", because it reported scores are balanced and shows high levels of Accuracy, Precision and Recall for both healthy loans and high-risk loans.
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-    With more data points after the resampling, the model 'Machine Learning Model 2' demonstrated higher performance, being more suitable to predict the loan risks and classify them as healthy loans or high-risk loans.
+   * With more data points after the resampling, the model 'Machine Learning Model 2' demonstrated higher performance, being more suitable to predict the loan risks and classify them as healthy loans or high-risk loans.
